@@ -2,9 +2,9 @@
 <html>
 
 <head>
-    <title>Justin Cai{% if page.title_text %} | {{ page.title_text }} {% endif %}</title>
+    <title>justin cai - {{ page.title_text }}</title>
     <link href="css/stylesheet.css" type="text/css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <script>
         (function (i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -21,18 +21,14 @@
 <body>
     <div id="content">
         <nav id="navbar">
-            <div id=left>
-                <h1><a href="/">Justin Cai</a></h1>
-            </div>
-            <div id=right>
-                <ul>
-                    {% for link in site.data.nav %} {% unless link.text == page.title_text %}
-                    <li><a href="{{ link.url }}">{{ link.text }}</a></li>
-                    {% else %}
-                    <li class="active">{{ link.text }}</li>
-                    {% endunless %} {% endfor %}
-                </ul>
-            </div>
+            <h1>justin cai</h1>
+            <ul>
+                {% for link in site.data.nav %} {% unless link.text == page.title_text %}
+                <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                {% else %}
+                <li class="active">{{ link.text }}</li>
+                {% endunless %} {% endfor %}
+            </ul>
         </nav>
         {{ content }}
     </div>

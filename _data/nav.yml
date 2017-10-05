@@ -1,6 +1,8 @@
-- text: Blog
+- text: home
+  url: /
+- text: blog
   url: https://medium.com/@justinzcai
-- text: Projects
+- text: projects
   url: /projects
-- text: Contact
+- text: contact
   url: /contact
