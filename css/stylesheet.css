@@ -5,8 +5,8 @@ body {
 #content {
     width: 640px;
     margin: 10px auto 10px auto;
-    font-family: 'consolas', sans-serif;
-    font-size: 0.95em;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 1em;
     padding: 25px;
     color: #a4a4a4;
 }
