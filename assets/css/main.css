@@ -8,7 +8,7 @@ main {
     font-family: 'Ubuntu Mono', sans-serif;
     font-size: 1em;
     padding: 25px;
-    color: #a4a4a4;
+    color: #aaa;
 }
 
 #navbar {
@@ -16,11 +16,14 @@ main {
     margin-bottom: 20px;
     border-bottom: 1px solid gray;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 #navbar ul {
+    padding: 0px;
     margin: 0px;
+    margin-top: 12px;
     display: flex;
     align-items: flex-end;
 }
@@ -29,6 +32,10 @@ main {
     display: inline;
     padding-left: 35px;
     vertical-align: middle;
+}
+
+#navbar li:first-child {
+    padding-left: 0px;
 }
 
 a:visited, a:link {
@@ -40,15 +47,10 @@ a:hover {
     color: #4063AD;
 }
 
-li.active {
-    color: #4EBBB7;
-}
-
 #me {
     display: flex;
     align-items: center;
 }
-
 
 #me img {
     margin-right: 15px;
@@ -60,16 +62,29 @@ li.active {
 #me h1 {
     font-size: 2em;
     font-weight: normal;
-    color: #efefef;
+    color: #f0f0f0;
     margin: 0px
-}
-
-p {
-    /* text-align: justify; */
 }
 
 .code {
     font-family: monospace;
     background-color: #e8e8e8;
     padding: 3px;
+}
+
+.title {
+    border-left: 3px solid #ccc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.post > .title h2 {
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+.post > .title h4 {
+    font-size: 1.4em;
+    margin: 0px;
+    margin-top: 5px
 }
