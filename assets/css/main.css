@@ -88,3 +88,11 @@ a:hover {
     margin: 0px;
     margin-top: 5px
 }
+
+blockquote {
+    border-left: 1px solid#202020;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-style: italic;
+    color:#888;
+}
