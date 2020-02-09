@@ -28,8 +28,8 @@ defined by its operands.
 
 ### **Proposition:** If $$A$$ and $$B$$ are regular, then $$A \otimes B$$ is regular.
 
-*Proof.* As $$A$$ and $$B$$ are regular, let $$M_A = (Q_A, \Sigma_A, \delta_A, s_A, F_A)$$
-and $$M_B = (Q_b, \Sigma_B, \delta_B, s_B, F_B)$$ be DFAs such that 
+*Proof.* As $$A$$ and $$B$$ are regular, let $$M_A = (Q_A, \Sigma, \delta_A, s_A, F_A)$$
+and $$M_B = (Q_b, \Sigma, \delta_B, s_B, F_B)$$ be DFAs such that 
 $$L(M_A)=A$$ and $$L(M_B)=B$$. Define the DFA 
 
 $$N=(Q_A \times Q_B \times \{L, R\}, \Sigma, \delta_N, (s_A, s_B, L), F_A \times F_B \times \{L\})$$  
