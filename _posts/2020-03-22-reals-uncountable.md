@@ -26,14 +26,7 @@ For any $$n \geq 0$$, we can see that for any value of $$\alpha(n)$$, we have
 $$\alpha(n) \notin I_{n+1}$$, so $$\alpha(n) \notin \bigcap_{k\in\mathbb{N}} I_k$$
 Therefore, if $$c \in \bigcap_{n\in\mathbb{N}} I_n$$, then $$c \neq \alpha(n)$$ for any $$n \in \mathbb{N}$$.
 
-As $$a < b$$, we have that $$\bigcap_{n\leq0} I_n = I_0 = [a, b] \ne \varnothing$$. Let $$k \in \mathbb{N}$$, 
-and suppose $$\bigcap_{n \leq k} I_n = I_k \neq \varnothing$$. For any value of $$\alpha(k)$$, we have that $$I_{k+1} \neq \varnothing$$.
-Additionaly, we have $$I_{k+1} \subset I_k = \bigcap_{n \leq k} I_n$$, so
-
-$$\bigcap_{n \leq k+1} I_n = \left(\bigcap_{n \leq k} I_n \right) \cap I_{k+1} = I_{k+1} \ne \varnothing,$$ 
-
-which gives us $$\bigcap_{n\in\mathbb{N}} I_n \neq \varnothing$$.
-Hence, there is some $$c \in \bigcap_{n\in\mathbb{N}} I_n$$, and 
+As $$\bigcap_{n\in\mathbb{N}} I_n \neq \varnothing$$ there is some $$c \in \bigcap_{n\in\mathbb{N}} I_n$$, and 
 for this $$c$$, we have $$c \in I_0=[a,b]$$ (and $$c \in \mathbb{R}$$) and $$c \neq \alpha(n)$$ for any $$n \in \mathbb{N}$$,
 so for any given $$\alpha$$, then $$\alpha$$ is not surjective onto $$[a,b]$$ (and $$\mathbb{R}$$).
 Therefore, $$[a,b]$$ (and $$\mathbb{R}$$) is not countable.
