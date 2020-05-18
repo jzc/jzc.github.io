@@ -2,13 +2,16 @@
 layout: default
 ---
 
-Hi! My name is Justin, and I am currently an undergrad at 
-the University of Colorado at Boulder, studying computer science.
-My main interests right now are in theoretical computer science and math.
+Hi! My name is Justin, and I am a (recent) former undergrad at 
+the University of Colorado Boulder, studying computer science.
+My main interests are in theoretical computer science, math, 
+and computer graphics. Now, I am preparing to apply for 
+grad school in 2021.
 
 Here are some things to check out:
-* [microbiomes](/microbiomes)
+* [Towards algorithms for reducible presentations of sofic shifts](/assets/thesis.pdf) 
 * [double-pendulum](/double-pendulum)
+* [microbiomes](/microbiomes)
 * [Can online self-reports assist in real-time identification of
                 influenza vaccination uptake? A cross-sectional study of influenza
                 vaccine-related tweets in the USA, 2013-2017](https://bmjopen.bmj.com/content/9/1/e024018.full)
