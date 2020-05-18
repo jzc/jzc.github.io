@@ -2,3 +2,5 @@ url: "http://justincai.com" # the base hostname & protocol for your site, e.g. h
 baseurl: "" # the subpath of your site, e.g. /blog
 title: "justin cai"
 permalink: /blog/:year/:month/:day/:title/
+plugins:
+  - jekyll-sitemap
