@@ -22,7 +22,7 @@ $$A=\{1^{2^k} : k \geq 0\}$$
 of strings of $$1$$'s whose length is a power of $$2$$ is regular as 
 $$A$$ is equal to the 
 intersection 
-$$M_2 \cap \bar{M_3} \cap \dots \cap \bar{M_p}$$
+$$M_2 \cap \overline{M_3} \cap \dots \cap \overline{M_p}$$
 of (finitely many) regular languages. 
 
 However, we can show $$A$$ is not regular by using the [pumping lemma](https://en.wikipedia.org/wiki/Pumping_lemma_for_regular_languages).
@@ -37,7 +37,7 @@ then $$|z| > 0$$ so
  $$|xy^2z| = |x| + 2|y| + |z| < 2|x|+2|y|+2|z| = 2|xyz|=2^{k+1}.$$
 
 Therefore, we have $$2^k < |xy^2z| < 2^{k+1}$$, so the length of $$xy^2z$$ cannot 
-be a square and thus $$xy^2z \notin A$$. Thus, by the pumping lemma,
+be a power of two and thus $$xy^2z \notin A$$. Thus, by the pumping lemma,
 $$A$$ is not regular so there must be infinitely many primes.
 
 This post was adapted from [u/JoshuaZ1's comment thread in r/math](https://www.reddit.com/r/math/comments/ggi065/six_proofs_that_there_are_infinitely_many_primes/fq1aipz/)
