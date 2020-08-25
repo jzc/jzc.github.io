@@ -4,3 +4,7 @@ title: "justin cai"
 permalink: /blog/:year/:month/:day/:title/
 plugins:
   - jekyll-sitemap
+markdown: kramdown
+kramdown:
+    math_engine: katex
+    mathe_engine_opts: {}

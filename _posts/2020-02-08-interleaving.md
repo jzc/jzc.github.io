@@ -3,7 +3,7 @@ layout: post
 title: Regular languages are closed under interleaving
 ---
 
-Let $$\otimes$$ be an operation recursivley defined on strings of the 
+Let $$\otimes$$ be an operation recursively defined on strings of the 
 same length such that 
 
 $$
