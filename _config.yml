@@ -8,3 +8,4 @@ markdown: kramdown
 kramdown:
     math_engine: katex
     mathe_engine_opts: {}
+exclude: ["upload.ps1", "README.md"]
