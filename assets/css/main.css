@@ -11,6 +11,25 @@ main {
     color: #aaa;
 }
 
+.post p {
+    margin: 20px 0em;
+    line-height: 1.5;
+}
+
+.post ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 20px;
+}
+
+.post ol li {
+    counter-increment: item;
+}
+
+.post ol li::before {
+    content: "(" counter(item) ") "
+}
+
 #navbar {
     padding-bottom: 12px;
     margin-bottom: 20px;
@@ -96,3 +115,5 @@ blockquote {
     font-style: italic;
     color:#888;
 }
+
+.katex { font-size: 1.1em; }
