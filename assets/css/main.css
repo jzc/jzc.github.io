@@ -1,0 +1,133 @@
+body {
+    background-color: #000;
+}
+
+main {
+    max-width: 680px;
+    margin: 10px auto 10px auto;
+    font-family: 'Ubuntu Mono', sans-serif;
+    font-size: 12pt;
+    padding: 25px;
+    color: #aaa;
+}
+
+.post p {
+    margin: 20px 0em;
+    line-height: 1.5;
+}
+
+.post ol {
+    list-style: none;
+    counter-reset: item;
+    padding-left: 20px;
+}
+
+.post ol li {
+    counter-increment: item;
+}
+
+.post ol li::before {
+    content: "(" counter(item) ") "
+}
+
+#navbar {
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#navbar ul {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+
+#navbar li {
+    display: inline;
+    padding-left: 35px;
+    vertical-align: middle;
+}
+
+#navbar li:first-child {
+    padding-left: 0px;
+}
+
+a:visited, a:link {
+    color: #538CFF;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4063AD;
+}
+
+#me {
+    display: flex;
+    align-items: center;
+}
+
+#me img {
+    margin-right: 15px;
+    width: 90px;
+    height: 90px;
+    border-radius: 8px;
+}
+
+#me h1 {
+    font-size: 2em;
+    font-weight: normal;
+    color: #f0f0f0;
+    margin: 0px
+}
+
+.code {
+    font-family: monospace;
+    background-color: #e8e8e8;
+    padding: 3px;
+}
+
+.post-title {
+    border-left: 3px solid #ccc;
+    padding-left: 20px;
+    margin-bottom: 30px;
+}
+
+.post-title h2 {
+    font-size: 1.8em;
+    margin: 0px;
+}
+
+.post-title h4 {
+    font-size: 1.4em;
+    margin: 0px;
+    margin-top: 5px
+}
+
+blockquote {
+    border-left: 1px solid#202020;
+    margin-left: 0px;
+    padding-left: 20px;
+    font-style: italic;
+    color:#888;
+}
+
+.katex { font-size: 1.1em; }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure figcaption {
+    margin-top: 20px;
+}
+
+figure figcaption::before {
+    content: "Figure: ";
+}
