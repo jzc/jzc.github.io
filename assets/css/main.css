@@ -117,3 +117,17 @@ blockquote {
 }
 
 .katex { font-size: 1.1em; }
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure figcaption {
+    margin-top: 20px;
+}
+
+figure figcaption::before {
+    content: "Figure: ";
+}

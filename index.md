@@ -10,7 +10,7 @@ grad school in 2021.
 
 Here are some things to check out:
 * [Towards algorithms for reducible presentations of sofic shifts](/assets/thesis.pdf) (senior thesis advised by [Rafael Frongillo](https://www.cs.colorado.edu/~raf/))
-* [Numerical methods the Schrödinger equation](https://nbviewer.jupyter.org/github/jzc/numerical_methods_for_quantum/blob/master/numerical_methods_for_schrodinger_equation.ipynb)
+* [Numerical methods for the Schrödinger equation](https://nbviewer.jupyter.org/github/jzc/numerical_methods_for_quantum/blob/master/numerical_methods_for_schrodinger_equation.ipynb)
 * [double-pendulum](/double-pendulum)
 * [microbiomes](/microbiomes)
 * [Can online self-reports assist in real-time identification of
