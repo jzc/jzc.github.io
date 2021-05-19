@@ -11,6 +11,10 @@ main {
     color: #aaa;
 }
 
+li p {
+    margin: 0px;
+}
+
 .post p {
     margin: 20px 0em;
     line-height: 1.5;
@@ -118,16 +122,16 @@ blockquote {
 
 .katex { font-size: 1.1em; }
 
-figure {
+.figure, figure {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-figure figcaption {
+.figure p, figure figcaption {
     margin-top: 20px;
 }
 
-figure figcaption::before {
+.figure p::before, figure figcaption::before {
     content: "Figure: ";
 }
