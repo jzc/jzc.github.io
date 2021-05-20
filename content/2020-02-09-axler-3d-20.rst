@@ -1,0 +1,47 @@
+====================================================
+ Trivial solution equivalent to a solution existing
+====================================================
+
+:slug: axler-3d-20
+
+From Axler's *Linear Algebra Done Right*, chapter 3.D, exercise 20:
+
+  Suppose :math:`n` is a positive integer and :math:`A_{i,j} \in \mathbb{F}` for 
+  :math:`i, j = 1, \dots, n`. Prove that the following are equivalent. 
+  (note that in both parts below, the number of equations equals 
+  the number of variables):
+  
+  (a) The trivial solution :math:`x_1 = \dots = x_n = 0` is the only solution to 
+  the homogenous system of equations
+ 
+  .. math::
+     \begin{aligned}
+     \sum^n_{k=1} A_{1,k}x_k&=0\\
+     \vdots\\
+     \sum^n_{k=1} A_{n,k}x_k&=0.
+     \end{aligned}
+   
+  (b) For every :math:`c_1, \dots, c_n \in \mathbb{F}`, there exists a solution to the system 
+  of equations
+ 
+  .. math::
+     \begin{aligned}
+     \sum^n_{k=1} A_{1,k}x_k&=c_1\\
+     \vdots\\
+     \sum^n_{k=1} A_{n,k}x_k&=c_n.
+     \end{aligned}
+
+The left hand side of both system of equations can be rewritten as the
+matrix equation :math:`Ax`, where :math:`A \in \mathbb{F}^{n,n}` and 
+:math:`x \in \mathbb{F}^n`. The matrix :math:`A` induces the linear map 
+:math:`T_A \in \mathcal{L}(\mathbb{F}^n)` where :math:`T_A(x) = A x`.
+
+Condition (a) is equivalent to :math:`\text{null } T_A = \{0\}`,
+which is equivalent to :math:`T_A` is injective. 
+Condition (b) is equivalent to :math:`\text{range } T_A = \mathbb{F^n}`,
+which is equivalent to :math:`T_A` is surjective.
+
+Hence, [Axler 3.69] implies that injectivity and surjectivity are 
+equivalent for linear operators, and as :math:`T_A \in \mathcal{L}(\mathbb{F}^n)`,
+we have :math:`T_A` injective iff :math:`T_A` surjective. Therefore, (a) and (b) are 
+equivalent.
