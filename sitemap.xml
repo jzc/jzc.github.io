@@ -5,21 +5,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>https://justincai.com/</loc>
-<lastmod>2021-05-19T23:34:15-00:00</lastmod>
+<lastmod>2021-05-19T23:47:46-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>https://justincai.com/pages/home.html</loc>
-<lastmod>2021-05-19T23:34:15-00:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>https://justincai.com/blog/2021/05/19/understanding-hopcrofts-algorithm</loc>
-<lastmod>2021-05-19T00:00:00-06:00</lastmod>
+<lastmod>2021-05-19T23:47:46-00:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
