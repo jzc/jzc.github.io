@@ -1,4 +1,6 @@
-:title:
+======
+ Home
+======
 :save_as: index.html
 
 Hi! My name is Justin, and I am a (recent) former undergrad at 

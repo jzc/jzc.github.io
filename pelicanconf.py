@@ -35,8 +35,8 @@ DEFAULT_PAGINATION = False
 
 THEME = "theme"
 INDEX_SAVE_AS = "blog.html"
-PLUGINS = ["pelican_katex"]
-ARTICLE_URL = "/blog/{date:%Y}/{date:%m}/{date:%d}/{slug}"
+PLUGINS = ["pelican_katex", "sitemap"]
+ARTICLE_URL = "blog/{date:%Y}/{date:%m}/{date:%d}/{slug}"
 ARTICLE_SAVE_AS = "blog/{date:%Y}/{date:%m}/{date:%d}/{slug}/index.html"
 CATEGORY_SAVE_AS = ""
 CATEGORIES_SAVE_AS = ""
@@ -51,3 +51,4 @@ EXTRA_PATH_METADATA = {"static/CNAME": {"path": "CNAME"}}
 #     "writer": "html5"
 # }
 FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'
+SITEMAP = {"format": "xml"}

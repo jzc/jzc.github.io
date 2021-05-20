@@ -1,8 +1,9 @@
 {% extends "base.html" %}
+{% block title %} blog {% endblock %}
 {% block content %}
 {% for article in articles %}
 <div class="post-title" >
-  <h2><a href="{{ article.url }}">{{ article.title }}</a></h2>
+  <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
   <h4>{{ article.date | strftime('%B %d, %Y') }}</h3>
 </div>
 {% endfor %}
