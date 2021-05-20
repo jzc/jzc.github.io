@@ -2,8 +2,6 @@
  Trivial solution equivalent to a solution existing
 ====================================================
 
-:slug: axler-3d-20
-
 From Axler's *Linear Algebra Done Right*, chapter 3.D, exercise 20:
 
   Suppose :math:`n` is a positive integer and :math:`A_{i,j} \in \mathbb{F}` for 

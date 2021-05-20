@@ -1,7 +1,6 @@
 ==================================================
  Infinitely many primes through regular languages
 ==================================================
-:slug: infinitely-many-primes-regular
 
 Let :math:`M_n` denote the set of strings consisting of just :math:`1`'s 
 whose length is a multiple of :math:`n`; i.e.

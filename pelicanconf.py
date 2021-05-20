@@ -50,3 +50,4 @@ EXTRA_PATH_METADATA = {"static/CNAME": {"path": "CNAME"}}
 # DOCUTILS_SETTINGS = {
 #     "writer": "html5"
 # }
+FILENAME_METADATA = r'(?P<date>\d{4}-\d{2}-\d{2})-(?P<slug>.*)'

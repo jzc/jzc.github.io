@@ -1,6 +1,6 @@
-Polynomial interpolation
-------------------------
-:slug: polynomial-interpolation
+==========================
+ Polynomial interpolation
+==========================
 
 From Axler's *Linear Algebra Done Right*, chapter 4, exercise 5:
 

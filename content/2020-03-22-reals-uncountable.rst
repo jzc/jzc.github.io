@@ -1,7 +1,6 @@
 ======================================================
  Uncountability of the reals through nested intervals
 ======================================================
-:slug: reals-uncountable
 
 From Ebbinghaus, Flum, and Thomas' *Mathematical Logic*, chapter 2, exercise 1.3:
 

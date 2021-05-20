@@ -1,7 +1,6 @@
 ==========================================
  Equidistant points from a pair of points
 ==========================================
-:slug: equidistant-points
 
 In the figure below, visually, 
 it is not too hard to believe that the points

@@ -1,6 +1,6 @@
-Regular languages are closed under interleaving
------------------------------------------------
-:slug: interleaving
+=================================================
+ Regular languages are closed under interleaving
+=================================================
 
 Let :math:`\otimes` be an operation recursively defined on strings of the 
 same length such that 
