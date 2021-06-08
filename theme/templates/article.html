@@ -3,8 +3,12 @@
 {% block content %}
 <div class="post">
     <div class="post-title" >
-        <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
-        <h4>{{ article.date | strftime('%B %d, %Y') }}</h3>
+      <h2><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h2>
+      {% if article.status == "draft" %}
+      <h4><i>Draft</i></h4>
+      {% else %}
+      <h4>{{ article.date | strftime('%B %d, %Y') }}</h4>
+      {% endif %}
     </div>
     {{ article.content }}
 </div>
