@@ -16,7 +16,10 @@ RELATIVE_URLS = False
 # FEED_ALL_ATOM = 'feeds/all.atom.xml'
 # CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
+# clean before making files
 DELETE_OUTPUT_DIRECTORY = True
+
+# this makes it so drafts do not appear
 DRAFT_SAVE_AS = ""
 
 # Following items are often useful when publishing
