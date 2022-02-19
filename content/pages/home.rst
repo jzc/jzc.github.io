@@ -10,6 +10,10 @@ and computer graphics.
 
 Here are some things to check out:
 
+* `tableau </tableau>`_
+
+* `Computational complexity of problems for deterministic presentations of sofic shifts <https://arxiv.org/abs/2112.03484>`_
+
 * `active-camo </active-camo>`_
 
 * `symbolic-dynamics <https://symbolic-dynamics.readthedocs.io/en/latest/>`_: a Python
